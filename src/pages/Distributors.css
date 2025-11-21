@@ -1,0 +1,290 @@
+.distributors-page {
+    background-color: var(--color-background);
+}
+
+.distributors-hero {
+    background: linear-gradient(135deg, var(--color-primary) 0%, #1e3a5f 100%);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.distributors-hero h1 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.distributors-hero p {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1.125rem;
+    margin: 0 auto;
+}
+
+/* Benefits Section */
+.benefits-section {
+    margin-bottom: 4rem;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.benefit-card {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    border-top: 4px solid var(--color-secondary);
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.benefit-icon {
+    color: var(--color-secondary);
+    margin: 0 auto 1rem;
+}
+
+.benefit-card h3 {
+    color: var(--color-primary);
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.benefit-card p {
+    color: var(--color-text-medium);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Locations Section */
+.locations-section {
+    margin-bottom: 4rem;
+}
+
+.locations-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Center last row items if incomplete */
+.locations-grid::after {
+    content: "";
+    grid-column: span 1;
+}
+
+.location-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    position: relative;
+    border-left: 4px solid var(--color-secondary);
+}
+
+.location-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.location-card.featured {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    border-left: 4px solid var(--color-primary);
+    box-shadow: 0 6px 20px rgba(44, 62, 80, 0.15);
+}
+
+.featured-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: var(--color-primary);
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.75rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.location-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.location-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--color-secondary) 0%, #d4a574 100%);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(194, 151, 92, 0.3);
+}
+
+.location-card.featured .location-icon {
+    background: linear-gradient(135deg, var(--color-primary) 0%, #1e3a5f 100%);
+    box-shadow: 0 4px 12px rgba(44, 62, 80, 0.3);
+}
+
+.location-header h3 {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.location-cities {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.city-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-text);
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: var(--radius-sm);
+    transition: all 0.2s ease;
+}
+
+.city-item:hover {
+    background-color: var(--color-accent);
+    transform: translateX(5px);
+}
+
+.city-item svg {
+    color: var(--color-secondary);
+    flex-shrink: 0;
+}
+
+.location-card.featured .city-item svg {
+    color: var(--color-primary);
+}
+
+.location-contact {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--color-accent);
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-text-medium);
+    font-size: 0.9rem;
+}
+
+.contact-item svg {
+    color: var(--color-primary);
+}
+
+/* CTA Section */
+.distributors-cta {
+    background: linear-gradient(135deg, var(--color-secondary) 0%, #d4a574 100%);
+    border-radius: var(--radius-lg);
+    padding: 3rem;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(194, 151, 92, 0.2);
+}
+
+.cta-icon {
+    color: white;
+    margin: 0 auto 1.5rem;
+    opacity: 0.9;
+}
+
+.cta-content h2 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.cta-content p {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .benefits-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .locations-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .locations-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .distributors-hero {
+        padding: 3rem 0;
+    }
+
+    .distributors-hero h1 {
+        font-size: 2rem;
+    }
+
+    .benefit-card,
+    .location-card {
+        padding: 1.5rem;
+    }
+
+    .location-header h3 {
+        font-size: 1.25rem;
+    }
+
+    .location-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .distributors-cta {
+        padding: 2rem;
+    }
+
+    .cta-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .city-item:hover {
+        transform: translateX(0);
+    }
+}
