@@ -42,7 +42,7 @@ const Home = () => {
                         </div>
                         <div className="intro-image-container relative">
                             <img
-                                src="https://plus.unsplash.com/premium_photo-1677610855629-53eb6e26554f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXBhcmF0b3MlMjBhdWRpdGl2b3N8ZW58MHx8MHx8fDA%3D"
+                                src="./images/widex-moment_product-range_flatlay_1920x1080.webp"
                                 alt="Especialista en audición"
                                 className="rounded-xl shadow-xl relative z-10 w-full object-cover h-[400px]"
                             />

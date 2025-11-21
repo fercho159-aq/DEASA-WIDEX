@@ -49,7 +49,7 @@ const Services = () => {
                         </div>
                         <div className="card-image">
                             <img
-                                src="https://images.unsplash.com/photo-1623376550324-d406ae677c04?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXBhcmF0b3MlMjBhdWRpdGl2b3N8ZW58MHx8MHx8fDA%3D"
+                                src="./images/filters_quality(40).webp"
                                 alt="Evaluación auditiva profesional"
                             />
                         </div>
@@ -87,7 +87,7 @@ const Services = () => {
                         </div>
                         <div className="card-image">
                             <img
-                                src="https://plus.unsplash.com/premium_photo-1673341825802-57153cc62e05?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXBhcmF0b3MlMjBhdWRpdGl2b3N8ZW58MHx8MHx8fDA%3D"
+                                src="./images/widex-moment_product-range_flatlay_1920x1080.webp"
                                 alt="Auxiliares auditivos Widex"
                             />
                         </div>
@@ -125,7 +125,7 @@ const Services = () => {
                         </div>
                         <div className="card-image">
                             <img
-                                src="https://plus.unsplash.com/premium_photo-1722945712868-c44d896298cb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGFwYXJhdG9zJTIwYXVkaXRpdm9zfGVufDB8fDB8fHww"
+                                src="./images/widex-moment_mric_dinning-table_v3_1920x1080.webp"
                                 alt="Laboratorio de reparación profesional"
                             />
                         </div>

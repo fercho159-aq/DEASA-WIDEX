@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="container flex justify-between items-center">
           <Link to="/" className="navbar-logo">
             <img src="/logo.png" alt="Audífonos DEASA" className="navbar-logo-img" />
-            <span>AUDÍFONOS DEASA</span>
+
           </Link>
 
           <div className="navbar-toggle" onClick={() => setIsOpen(!isOpen)}>
