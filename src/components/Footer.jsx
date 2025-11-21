@@ -38,8 +38,8 @@ const Footer = () => {
                         <h4>Contacto</h4>
                         <ul className="contact-list">
                             <li><Phone size={16} /> 55 4190 3849</li>
-                            <li><Mail size={16} /> contacto@deasa.com</li>
-                            <li><MapPin size={16} /> Ciudad de México</li>
+                            <li><Mail size={16} /> administracion@gpoaudaneses.com.mx</li>
+                            <li><MapPin size={16} /> Río Pánuco 183, Cuauhtémoc, CDMX</li>
                         </ul>
                     </div>
                 </div>

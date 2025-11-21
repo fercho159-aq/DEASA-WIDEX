@@ -5,7 +5,7 @@ import './Contact.css';
 const Contact = () => {
     const whatsappNumber = '525541903849';
     const whatsappMessage = encodeURIComponent('Hola, me gustaría obtener más información sobre sus servicios.');
-    const email = 'contacto@deasa.com';
+    const email = 'administracion@gpoaudaneses.com.mx';
 
     return (
         <div className="contact-page">
@@ -61,8 +61,8 @@ const Contact = () => {
                             </div>
                             <h3>Ubicación Principal</h3>
                             <p className="contact-detail">
-                                Av. Insurgentes Sur 123<br />
-                                Col. Roma, Ciudad de México
+                                Río Pánuco 183<br />
+                                Cuauhtémoc, CDMX
                             </p>
                         </div>
 
