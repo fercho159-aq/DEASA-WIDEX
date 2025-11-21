@@ -3,7 +3,7 @@ import { MessageCircle } from 'lucide-react';
 import './WhatsAppCTA.css';
 
 const WhatsAppCTA = ({ message = 'Hola, me gustaría obtener más información sobre sus servicios.' }) => {
-    const whatsappNumber = '525512345678'; // Replace with actual number
+    const whatsappNumber = '525541903849';
     const encodedMessage = encodeURIComponent(message);
 
     return (

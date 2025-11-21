@@ -37,7 +37,7 @@ const Footer = () => {
                     <div className="footer-col">
                         <h4>Contacto</h4>
                         <ul className="contact-list">
-                            <li><Phone size={16} /> (55) 1234-5678</li>
+                            <li><Phone size={16} /> 55 4190 3849</li>
                             <li><Mail size={16} /> contacto@deasa.com</li>
                             <li><MapPin size={16} /> Ciudad de México</li>
                         </ul>

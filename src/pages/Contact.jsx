@@ -3,7 +3,7 @@ import { Phone, Mail, MapPin, Clock, MessageCircle } from 'lucide-react';
 import './Contact.css';
 
 const Contact = () => {
-    const whatsappNumber = '525512345678'; // Replace with actual number
+    const whatsappNumber = '525541903849';
     const whatsappMessage = encodeURIComponent('Hola, me gustaría obtener más información sobre sus servicios.');
     const email = 'contacto@deasa.com';
 
@@ -32,7 +32,7 @@ const Contact = () => {
                                 <Phone size={32} />
                             </div>
                             <h3>Teléfono</h3>
-                            <p className="contact-detail">(55) 1234-5678</p>
+                            <p className="contact-detail">55 4190 3849</p>
                             <div className="contact-hours">
                                 <Clock size={16} />
                                 <span>Lunes a Viernes: 9:00 AM - 7:00 PM</span>

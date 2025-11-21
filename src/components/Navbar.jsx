@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="navbar-top">
         <div className="container flex justify-between items-center">
           <div className="navbar-contact flex gap-md">
-            <span className="flex items-center gap-sm"><Phone size={16} /> (55) 1234-5678</span>
+            <span className="flex items-center gap-sm"><Phone size={16} /> 55 4190 3849</span>
             <span className="flex items-center gap-sm"><MapPin size={16} /> Sucursales en todo México</span>
           </div>
           <div className="navbar-socials">
