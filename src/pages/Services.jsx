@@ -35,11 +35,11 @@ const Services = () => {
                                 </div>
                                 <div className="feature-item">
                                     <CheckCircle2 size={18} />
-                                    <span><strong>Audiometría</strong> Tonal y Verbal</span>
+                                    <span><strong>Audiometría</strong> vía aérea y vía ósea</span>
                                 </div>
                                 <div className="feature-item">
                                     <CheckCircle2 size={18} />
-                                    <span><strong>Timpanometría</strong> especializada</span>
+                                    <span><strong>Prueba</strong> de auxiliares</span>
                                 </div>
                                 <div className="feature-item">
                                     <CheckCircle2 size={18} />

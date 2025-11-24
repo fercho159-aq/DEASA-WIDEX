@@ -30,6 +30,9 @@ const About = () => {
                             <p>
                                 A lo largo de cuatro décadas, hemos evolucionado de ser un proveedor de aparatos auditivos a convertirnos en un centro integral de salud sensorial, incorporando servicios de óptica y un laboratorio propio de alta tecnología.
                             </p>
+                            <p className="mt-md">
+                                Nuestros audioprotesistas cuentan con más de <strong>20 años de experiencia</strong> en adaptación de auxiliares auditivos, ofreciendo junto con todo nuestro equipo de <strong>Grupo DEASA</strong> la mejor calidad, trato y servicio. Para nosotros <strong>lo más importante eres tú</strong>; la atención, rapidez y soluciones en nuestros servicios nos destacan.
+                            </p>
                         </div>
                     </div>
                 </div>
